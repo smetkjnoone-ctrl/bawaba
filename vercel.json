@@ -1,13 +1,5 @@
 {
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        }
-      ]
-    }
+  "redirects": [
+    { "source": "/(.*)", "destination": "https://balaghati.vercel.app/portal.html", "permanent": false }
   ]
 }
